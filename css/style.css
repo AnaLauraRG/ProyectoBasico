@@ -1,0 +1,201 @@
+
+/*Para que aparezca la imagen chida transparente del principio*/
+body {
+	top: 80px;
+		padding-top: 130px;
+		height: 850px;
+		background: 
+			linear-gradient(#C2A7E8, transparent 90%),
+			linear-gradient(0deg,#fff,transparent),
+			url("../img/img4.png") no-repeat center;
+		background-size: cover;
+}
+
+header {
+	background: 		
+        linear-gradient(0deg,#C2A7E8,transparent),
+		linear-gradient(#fff, transparent 90%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 110px;
+	display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+   
+}
+
+/*Para la pequeña imagen*/
+header img {
+	height: 80px;
+}
+
+header li 
+{
+    margin: 20px;
+}
+
+header li a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+#tablaa td  {
+	/*border-left: 80px;
+	height: 50%
+	width:50%;*/
+	text-align: justify;
+	text-align: center;
+}
+
+
+#navM {
+	display: inline;
+	text-align: center;
+	margin:20px;
+	font-family: 'Bitter', serif;
+}
+
+#navM li {
+	display:block;
+	width:210px;
+	float:left;
+	margin-left:5px;
+
+}
+
+#navM a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color: transparent;
+	color:#009; /* cambiar color */
+}
+
+#navM a:hover {
+	background-color:pink;
+	color:black;
+}
+
+
+#navM ul{
+	list-style: none; /*Quita los puntos de lista*/
+}
+
+#sinP {
+	list-style: none; /*Quita los puntos de lista*/
+} 
+
+#imagen5 {
+	margin-left: 10px;
+}
+
+#imagen4{
+	width: 40%;
+	height: auto;
+}
+
+#imagen2{
+	width: 30%;
+	height: auto;
+}
+
+#nombre {
+	margin-left: 80px;
+}
+
+@media screen and (max-width:1800px) and (min-width:990px) { 
+
+	.intro {
+		margin-left: 560px;
+		margin-right: 50px;
+	}
+	div.container {
+		width: 96%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	header a {
+	    width: 100%;
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.headerd {
+		width: 100%;
+		height: 190px;
+	}
+	#navM li {
+        display:block;
+		width:40px;
+		float:left;
+		margin-left:1px;
+
+    }
+    #imagen1{
+		width: 75%;
+		margin-left: 10px;
+		margin-right: 10px;
+		height: auto;
+	}
+
+	#imagen5{
+		width: 35%;
+		margin-left: 10px;
+		margin-right: 10px;
+		height: auto;
+	}
+	
+	#imgT{
+		width: 100%;
+		height: auto;
+	}
+	body {
+		padding-top: 200px;
+	}
+}
+
+
+
+table, th,td {
+	border: 2px solid rgb(28,58,64);
+	border-collapse: collapse;
+
+}
+
+
+/*Relacionado con el footer*/
+footer a {
+	text-decoration: none;
+	background-color: #C2A7E8;
+	color: black;
+	display:block;
+	padding:3px;
+
+}
+
+footer li {
+	display:block;
+	width:210px;
+	float:left;
+	margin-left:80px;
+	height: 75px;
+}
+
+footer {
+	font-family: 'Inconsolata', monospace;
+	flex: 0 0 auto;
+}
+
+
+
+
+
+
